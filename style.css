@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+div{
+    padding-top: 15em;
+    height: 10px;
+    text-align: center;
+}
+h1{
+    color:  hsla(0, 0%, 100%, 0.5);
+}
+h2{
+    color:  hsla(0, 0%, 100%, 0.5);
+    font-size: 3em;
+}
+
+button{
+    height: 3em;
+    width: 6em;
+    font-style: oblique;
+    font-weight: 2em;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.start{
+    color: chartreuse;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border-radius: 10px;
+}
+.pause{
+    color: hsl(64, 100%, 64%);
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border-radius: 10px;
+}
+.reset{
+    color: hsl(64, 100%, 64%);
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border-radius: 10px;
+}
+.stop{
+    color: red;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border-radius: 10px;
+}
